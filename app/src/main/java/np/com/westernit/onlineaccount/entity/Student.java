@@ -3,10 +3,12 @@ package np.com.westernit.onlineaccount.entity;
 public class Student {
     private Integer roll;
     private String name;
+   // private String anotherVariable;
 
     public Student(Integer roll, String name) {
         this.roll = roll;
         this.name = name;
+
     }
 
     public Integer getRoll() {
